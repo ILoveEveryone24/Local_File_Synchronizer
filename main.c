@@ -14,5 +14,7 @@ int main(int argc, char *argv[]){
         printf("%s\n", dp->d_name);
     }
 
+    closedir(dir);
+
     return 0;
 }
